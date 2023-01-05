@@ -1,0 +1,12 @@
+.hidden-content {
+  display: none;
+}
+
+
+
+#welcome__text {
+  width: 392px;
+  height: 23px;
+  
+  background-image: url("../images/custom/text_welcome.png");
+}
