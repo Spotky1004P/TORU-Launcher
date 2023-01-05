@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "GmarketSans";
+  src: url("../images/custom/GmarketSansOTF/GmarketSansMedium.otf");
+}
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("../images/custom/GmarketSansOTF/GmarketSansBold.otf");
+}
+@font-face {
+  font-family: "GmarketSansLight";
+  src: url("../images/custom/GmarketSansOTF/GmarketSansLight.otf");
+}
+
 .hidden-content {
   display: none;
 }
@@ -9,4 +22,179 @@
   height: 23px;
   
   background-image: url("../images/custom/text_welcome.png");
+}
+
+
+
+#landing__up {
+  display: inline-block;
+  margin: 1.2% 0;
+  padding: 0 2%;
+
+  width: 96%;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-between;
+}
+#landing__mini-profile {
+  position: relative;
+  aspect-ratio: 4.167 / 1;
+  
+  background-image: url("../images/custom/block_left.png");
+  background-size: cover;
+}
+#avatarContainer {
+  position: absolute;
+  left: 9%;
+  top: 10%;
+
+  display: inline-block;
+  height: 70%;
+  aspect-ratio: 1 / 1;
+
+  filter: drop-shadow(2px 4px 2px #0006);
+  background-size: cover;
+}
+#user_text {
+  position: absolute;
+  left: 60%;
+  top: 35%;
+  transform: translateX(-50%);
+
+  font-family: "GmarketSansLight";
+  color: #fff;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+#landing__nav {
+  display: flex;
+  align-items: center;
+
+  aspect-ratio: 15.5 / 1;
+
+  background-image: url("../images/custom/block_nav.png");
+  background-size: cover;
+
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+#landing__nav:hover {
+  opacity: 1;
+}
+#landing__user-count {
+  position: relative;
+  display: inline-block;
+
+  margin-left: 2.5%;
+
+  height: 57%;
+  aspect-ratio: 5 / 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url("../images/custom/block_user_count.png");
+  background-size: cover;
+}
+#landing__user-count__number {
+  display: block;
+
+  position: absolute;
+  top: 55%;
+  right: 5%;
+
+  width: 60%;
+  float: right;
+  transform: translateY(-50%);
+
+  color: #000;
+  text-align: right;
+  text-align: center;
+  font-family: "GmarketSansBold";
+  letter-spacing: -1px;
+}
+#player_count {
+  font-size: 0.8em;
+}
+#landing__nav__main {
+  position: relative;
+  margin-left: 3%;
+  width: 75%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+#landing__nav__main > span {
+  margin-right: 4%;
+  height: 35%;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+#landing__nav__main > span:hover {
+  filter: invert(1);
+}
+#settingsMediaButton {
+  aspect-ratio: 53 / 18;
+  background-image: url("../images/custom/nav_btn_setting.png");
+}
+#landing__nav__discord {
+  aspect-ratio: 63 / 18;
+  background-image: url("../images/custom/nav_btn_discord.png");
+}
+#landing__nav__minepage {
+  aspect-ratio: 81 / 18;
+  background-image: url("../images/custom/nav_btn_minepage.png");
+}
+#landing__nav__minelist {
+  aspect-ratio: 60 / 18;
+  background-image: url("../images/custom/nav_btn_minelist.png");
+}
+
+#landing__welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 40%;
+  aspect-ratio: 512 / 137;
+  background-image: url("../images/custom/text_welcome_big.png");
+  background-size: cover;
+}
+
+#landing__bottom > div {
+  position: absolute;
+  left: 2%;
+  bottom: 4%;
+
+  display: inline-block;
+
+  width: 96%;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-between;
+}
+#landing__bottom > div > span:nth-child(1) {
+  aspect-ratio: 960 / 60;
+  background-size: cover;
+}
+#landing__bottom > div > span:nth-child(2) {
+  aspect-ratio: 250 / 60;
+  background-size: cover;
+}
+#landing__before__block {
+  background-image: url("../images/custom/block_bottom.png");
+}
+#launch_button {
+  background-image: url("../images/custom/btn_launch.png");
+  cursor: pointer;
 }
