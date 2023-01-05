@@ -1053,12 +1053,12 @@ body, button {
     position: relative;
     height: 100%;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.50);
+    /* background-color: rgba(0, 0, 0, 0.50); */
     transition: background-color 0.25s cubic-bezier(.02, .01, .47, 1);
 }
 
 /* Drop shadow displayed when content is scrolled out of view. */
-#settingsContainer:before {
+#settingsContainerRight:before {
     content: '';
     background: linear-gradient(rgba(0, 0, 0, 0.25), transparent);
     width: 100%;
@@ -1067,7 +1067,7 @@ body, button {
     opacity: 0;
     transition: opacity 0.25s ease;
 }
-#settingsContainer[scrolled]:before {
+#settingsContainer[scrolled] #settingsContainerRight:before {
     opacity: 1;
 }
 
@@ -1113,7 +1113,7 @@ body, button {
 }
 
 /* Navigation item shared styles. */
-.settingsNavItem {
+/* .settingsNavItem {
     background: none;
     border: none;
     text-align: left;
@@ -1133,7 +1133,7 @@ body, button {
     cursor: default;
     color: white;
     text-shadow: none;
-}
+} */
 
 /* Div to add some space between nav items. */
 .settingsNavSpacer {
@@ -1156,7 +1156,7 @@ body, button {
 }
 
 /* Settings done button styles. */
-#settingsNavDone {
+/* #settingsNavDone {
     background: none;
     border: none;
     text-align: left;
@@ -1178,12 +1178,15 @@ body, button {
 #settingsNavDone:disabled {
     color: rgba(255, 255, 255, 0.75);
     pointer-events: none;
-}
+} */
 
 /* Right hand side of the settings container, for tabs. */
 #settingsContainerRight {
-    height: 100%;
-    width: 75%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    height: 80%;
+    width: 95%;
     box-sizing: border-box;
 }
 

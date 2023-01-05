@@ -198,3 +198,94 @@
   background-image: url("../images/custom/btn_launch.png");
   cursor: pointer;
 }
+
+
+
+#settings__top {
+  display: inline-block;
+  margin: 1.2% 0;
+  padding: 0 2%;
+
+  width: 96%;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-between;
+}
+#settingsNavDone {
+  aspect-ratio: 250 / 60;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url("../images/custom/block_left.png");
+  background-size: cover;
+
+  cursor: pointer;
+}
+#settingsNavDone__text {
+  width: 40%;
+  aspect-ratio: 90 / 22;
+
+  background-image: url("../images/custom/setting_back.png");
+  background-size: cover;
+}
+#setting__nav {
+  display: flex;
+  align-items: center;
+
+  aspect-ratio: 15.5 / 1;
+
+  background-image: url("../images/custom/block_nav.png");
+  background-size: cover;
+
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+#setting__nav:hover {
+  opacity: 1;
+}
+#setting__nav > span {
+  margin: 0 4%;
+  height: 35%;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transition: filter 0.3s;
+  cursor: pointer;
+}
+#setting__nav > span:hover {
+  filter: invert(1);
+}
+#settingsNavAccount {
+  aspect-ratio: 35 / 19;
+
+  background-image: url("../images/custom/setting_account.png");
+  background-size: cover;
+}
+#settingsNavMinecraft {
+  aspect-ratio: 110 / 19;
+  
+  background-image: url("../images/custom/setting_minecraft.png");
+  background-size: cover;
+}
+#settingsNavMods {
+  aspect-ratio: 37 / 19;
+
+  background-image: url("../images/custom/setting_mods.png");
+  background-size: cover;
+}
+#settingsNavJava {
+  aspect-ratio: 37 / 19;
+
+  background-image: url("../images/custom/setting_java.png");
+  background-size: cover;
+}
+#settingsNavLauncher {
+  aspect-ratio: 35 / 19;
+
+  background-image: url("../images/custom/setting_launcher.png");
+  background-size: cover;
+}
