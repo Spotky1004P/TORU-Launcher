@@ -26,6 +26,22 @@
 
 
 
+#loginOptionMicrosoft {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 30vw;
+  aspect-ratio: 250 / 45;
+  
+  background-image: url("../images/custom/btn_ms_login.png");
+  background-size: cover;
+  cursor: pointer;
+}
+
+
+
 #landing__up {
   display: inline-block;
   margin: 1.2% 0;

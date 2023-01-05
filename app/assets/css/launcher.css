@@ -991,7 +991,7 @@ body, button {
     width: 16em;
 }
 
-.loginOptionButton {
+/* .loginOptionButton {
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
     border-radius: 3px;
@@ -1010,7 +1010,7 @@ body, button {
 .loginOptionButton:focus {
     background: rgba(54, 54, 54, 0.25);
     text-shadow: 0px 0px 20px white;
-}
+} */
 
 #loginOptionCancelContainer {
     position: absolute;
