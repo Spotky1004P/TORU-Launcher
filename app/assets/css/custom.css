@@ -214,6 +214,36 @@
   background-image: url("../images/custom/btn_launch.png");
   cursor: pointer;
 }
+#landing__after__progress {
+  position: relative;
+  background-image: url("../images/custom/block_progress.png");
+}
+#launch_progress {
+  position: absolute;
+  top: 39.7%;
+  left: 36.6%;
+}
+#launch_progress[value] {
+  height: 25%;
+  width: 51% !important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+#launch_progress[value]::-webkit-progress-bar {
+  background-color: transparent;
+}
+#launch_progress[value]::-webkit-progress-value {
+  background-color: #451305;
+}
+#launch_progress_label {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+#landing__after__block {
+  background-image: url("../images/custom/block_in_download.png");
+}
 
 
 

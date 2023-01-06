@@ -3473,7 +3473,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 
 /* Progress bar styles. */
-#launch_progress[value] {
+/* #launch_progress[value] {
     height: 3px;
     width: 265px;
     -webkit-appearance: none;
@@ -3483,7 +3483,7 @@ input:checked + .toggleSwitchSlider:before {
 }
 #launch_progress[value]::-webkit-progress-value {
     background-color: #fff;
-}
+} */
 
 /* Span which displays information about the status of the launch process. */
 #launch_details_text {
