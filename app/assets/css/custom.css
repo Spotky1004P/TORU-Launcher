@@ -246,7 +246,12 @@
 }
 
 
-
+#settingsContainer {
+  background-color: transparent !important;
+}
+#settingsContainer * {
+  font-family: "GmarketSansLight";
+}
 #settings__top {
   display: inline-block;
   margin: 1.2% 0;
