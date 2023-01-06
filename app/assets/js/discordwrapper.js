@@ -19,7 +19,10 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = '클라�
         smallImageKey: genSettings.smallImageKey,
         smallImageText: genSettings.smallImageText,
         startTimestamp: new Date().getTime(),
-        instance: false
+        instance: false,
+        buttons: [
+            { label: '디스코드', url: 'https://discord.gg/BEeRvFJrpZ' },
+        ]
     }
 
     client.on('ready', () => {
